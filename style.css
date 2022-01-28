@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+footer {
+  background-color: rgb(211, 211, 228);
+ padding: 10px;
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ text-align: center;
+ 
+}
+nav{
+  background-color:rgb(225, 226, 231); ;
+}
+#mnav {
+  background-color: rgb(217, 219, 228);
+
+ position: fixed;
+ width: 100%;
+ bottom: 40px;
+ padding: 5px;
+ text-align: center;
+ 
+}
+
+
+
+
