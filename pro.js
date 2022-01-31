@@ -87,11 +87,11 @@ $("#th-1").click(function () {
   
 
   if (x === false) {
-    $("#th-1").html('<i class="bi can bi-caret-down"></i>');
+    $("#th-1").html(' ID <i class="bi can bi-caret-down"></i>');
     return (x = true);
   }
   if (x === true) {
-    $("#th-1").html(' <i class="bi can bi-caret-up"></i>');
+    $("#th-1").html(' ID <i class="bi can bi-caret-up"></i>');
     return (x = false);
   }
 });
@@ -122,11 +122,11 @@ $("#th-2").click(function () {
   
 
   if (x === false) {
-    $("#th-2").html('<i class="bi can bi-caret-down"></i>');
+    $("#th-2").html(' name <i class="bi can bi-caret-down"></i>');
     return (x = true);
   }
   if (x === true) {
-    $("#th-2").html(' <i class="bi can bi-caret-up"></i>');
+    $("#th-2").html('  name <i class="bi can bi-caret-up"></i>');
     return (x = false);
   }
 });
@@ -157,11 +157,11 @@ $("#th-3").click(function () {
   
 
   if (x === false) {
-    $("#th-3").html('<i class="bi can bi-caret-down"></i>');
+    $("#th-3").html(' Price <i class="bi can bi-caret-down"></i>');
     return (x = true);
   }
   if (x === true) {
-    $("#th-3").html(' <i class="bi can bi-caret-up"></i>');
+    $("#th-3").html(' Price <i class="bi can bi-caret-up"></i>');
     return (x = false);
   }
 });
@@ -192,11 +192,11 @@ $("#th-4").click(function () {
   
 
   if (x === false) {
-    $("#th-4").html('<i class="bi can bi-caret-down"></i>');
+    $("#th-4").html(' category <i class="bi can bi-caret-down"></i>');
     return (x = true);
   }
   if (x === true) {
-    $("#th-4").html(' <i class="bi can bi-caret-up"></i>');
+    $("#th-4").html('  category <i class="bi can bi-caret-up"></i>');
     return (x = false);
   }
 });
@@ -227,11 +227,11 @@ $("#th-5").click(function () {
   
 
   if (x === false) {
-    $("#th-5").html('<i class="bi can bi-caret-down"></i>');
+    $("#th-5").html(' availablity <i class="bi can bi-caret-down"></i>');
     return (x = true);
   }
   if (x === true) {
-    $("#th-5").html(' <i class="bi can bi-caret-up"></i>');
+    $("#th-5").html('  availablity <i class="bi can bi-caret-up"></i>');
     return (x = false);
   }
 });
@@ -262,11 +262,11 @@ $("#th-6").click(function () {
   
 
   if (x === false) {
-    $("#th-6").html('<i class="bi can bi-caret-down"></i>');
+    $("#th-6").html(' forniso <i class="bi can bi-caret-down"></i>');
     return (x = true);
   }
   if (x === true) {
-    $("#th-6").html(' <i class="bi can bi-caret-up"></i>');
+    $("#th-6").html(' forniso  <i class="bi can bi-caret-up"></i>');
     return (x = false);
   }
 });
