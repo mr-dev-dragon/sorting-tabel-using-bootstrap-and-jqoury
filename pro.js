@@ -15,7 +15,7 @@ function fill(dt) {
   var c = 0;
   for (var i = 0; i < dt.length; i++) {
     tbody.innerHTML += `<tr  id="c-${c++}"> 
-                    <td>${dt[i].Id}</td>
+                    <td> ${i}${dt[i].Id} </td>
                     <td>${dt[i].name}</td>
                     <td>${dt[i].Price}</td>
                     <td>${dt[i].Catégorie}</td>
